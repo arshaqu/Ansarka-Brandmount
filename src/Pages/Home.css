@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Exo+2&display=swap');
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideInLeft {
+    0% { transform: translateX(-100%); opacity: 0; }
+    100% { transform: translateX(0); opacity: 1; }
+  }
+  
+  @keyframes fadeInText {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @keyframes fadeInUp {
+    0% { transform: translateY(100%); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+  }
+  
+  @keyframes bounceIn {
+    0% { transform: scale(0.5); opacity: 0; }
+    70% { transform: scale(1.1); opacity: 1; }
+    100% { transform: scale(1); }
+  }
+
+  
+  
+  .exo {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    animation: fadeInUp 1.5s ease-in-out forwards;
+  }
+  
+
+  .cormorant {
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  .image {
+    margin-top: -340px !important;
+    animation: fadeIn 2s ease-in-out forwards;
+  }
+  
+.fonthead{
+  font-size: 25px;
+  margin-left:38px ;
+  font-family: "Exo 2", sans-serif;
+}
+
+.fontpara{
+  font-size: 12px;
+  margin-left:38px ;
+}
+.sample{
+  margin-top: 50px !important;
+}
+
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  /* ssection 1 */
+  .first_section {
+      width:auto;
+      height: 'auto';
+      
+  }
+  .section1_h1{
+    font-size: 50px !important;
+    margin-left: -40px;
+  }
+  .image{
+    width: 700px !important;
+    margin-left: -400px;
+    margin-bottom: -800px !important;
+  }
+  .buttons{
+    width: 150px !important;
+    font-size: small !important;
+    margin-left: -30px;
+  }
+  /* section 2 */
+  .second_section{
+    width: 100% !important;
+    background-color: black !important;
+    height: auto !important;
+    margin-top: -100px !important;
+    background-color: red !;
+    overflow-x: hidden;
+    position: absolute
+
+   ;
+  }
+  .second{
+    width: 100px !important;
+    height: 10px !important; 
+    overflow-x: hidden;
+    margin-right: 100px !important
+
+  }
+
+  .imageSec2{
+    width: 500px !important;
+    overflow-x: hidden;
+    position: absolute;
+    margin-left: -50px !important;
+  
+  }
+  .second_div{
+    font-size: 20px !important;
+    /* margin-left: -500px !important; */
+    margin-top: 350px !important;
+    overflow-x: hidden;
+
+  }
+
+  .seconde_div2{
+    margin-top: 250px !important;
+  }
+  .second_h1_tag{
+    font-size: 40px !important;
+  }
+
+  /* Third Section */
+ .section_third{
+  width: auto !important;
+  height: auto;
+ }
+ .third_sub{
+  width: 560px !important;
+  margin-left: 65px !important;
+  display: flex;
+  justify-content: center;
+ }
+ .fonthead{
+  font-size: 20px;
+  margin-left: -20px !important;
+}
+.why_imag{
+  flex-direction: row !important;
+  display: flex !important; 
+}
+.whychoose{
+  font-size: 20px !important;
+  width: 190px;
+  /* margin-left: -100px !important; */
+}
+.fontpara{
+  font-size: 10px;
+  margin-left: -20px !important;
+
+}
+.thisone{
+  width: 180px !important;
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+}
+.third_sub{
+  margin-top: 345px !important;
+}
+.background_blue{
+  width: 70px;
+  margin-top: -150px;
+}
+.achievements{
+  margin-left: -60px !important;
+  font-size: small !important;
+  font-weight: bold;
+
+}
+.third_imagi{
+  width: 300px;
+  margin-left: -150px;
+  margin-top: 50px !important;
+}
+.allinall{
+  margin-left: -430px;
+}
+
+.testimonials{
+  font-size: 80px !important;
+}
+.boxers{
+  flex-direction: column;
+}
+.boxe{
+  width: 400px !important;
+  margin-left: 15px;
+}
+.boxe2{
+  margin-top: 10px !important;
+}
+.box3{
+  margin-top: 10px !important;
+}
+.footer_main{
+  display: contents !important;
+}
+.foot_head{
+  font-size: medium;
+  margin: 0 !important;
+  font-weight: bold;
+}
+.foot_para{
+  font-size: small;
+  margin: 0;
+
+}
+
+}
+
+@media (max-width: 868px) {
+/* SECTION 1 */
+  .first_section {
+    width:auto;
+    height: 'auto';
+    
+}
+.section1_h1{
+  font-size: 50px !important;
+  margin-left: -120px;
+}
+.image{
+  width: 500px !important;
+  margin-left: -380px;
+  margin-bottom: -600px !important;
+}
+.buttons{
+  width: 150px !important;
+  font-size: small !important;
+  margin-left: -30px;
+}
+
+  .exo {
+      font-size: 50px;
+  }
+  .testimonials{
+    font-size: 50px !important;
+    margin-right: 5px;
+  }
+  .boxe{
+    width: 300px !important;
+    margin-left: 1px;
+  margin-left: 15px;
+
+  }
+
+  .image {
+      margin-top: -200px !important;
+      width: 100%;
+  }
+
+  button {
+      width: 200px;
+      height: 40px;
+  }
+
+  .second_section{
+    width: 100% !important;
+    background-color: black !important;
+    height: auto !important;
+    margin-top: -100px !important;
+    background-color: red !;
+    overflow-x: hidden;
+    position: absolute
+
+   ;
+  }
+  .second{
+    width: 100px !important;
+    height: 10px !important; 
+    overflow-x: hidden;
+    margin-right: 100px !important
+
+  }
+
+  .imageSec2{
+    width: 380px !important;
+    overflow-x: hidden;
+    position: absolute;
+    margin-left: -100px !important;
+  
+  }
+  .second_div{
+    font-size: 20px !important;
+    margin-left: -100px !important;
+    margin-top: 350px !important;
+    overflow-x: hidden;
+
+  }
+
+  .seconde_div2{
+    margin-top: 250px !important;
+  }
+  .second_h1_tag{
+    font-size: 40px !important;
+  }
+ .btn-light{
+  margin-left: -25px !important;
+ }
+  /* Third Section */
+
+ .section_third{
+  width: auto !important;
+  height: auto;
+  
+ }
+ .third_sub{
+  margin: '400px 107px 14px' !important;
+  box-shadow: none;
+}
+.fonthead{
+  font-size: 18px;
+  margin-left: -20px !important;
+}
+.why_imag{
+  flex-direction: row !important;
+  display: flex !important; 
+
+}
+.whychoose{
+  font-size: 20px !important;
+  width: 190px;
+  margin-left: 100px !important;
+}
+.fontpara{
+  font-size: 18px !important;
+  margin-left: -40px !important;
+
+}
+.thisone{
+  width: 0px !important;
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+  /* display:  !important; */
+
+}
+.icone{
+  display: none;
+}
+.third_sub{
+  margin-top: 240px !important;
+  margin-left: -10px !important;
+
+}
+.background_blue{
+  width: 70px;
+  margin-top: -150px;
+}
+.achievements{
+  margin-left: -60px !important;
+  font-size: small !important;
+  font-weight: bold;
+
+}
+.third_imagi{
+  width: 200px;
+  margin-left: -150px;
+  margin-top: 50px !important;
+}
+.allinall{
+  /* margin-left: -400px; */
+  /* display: none; */
+}
+
+.testimonials{
+  font-size: 60px auto !important;
+  margin-left: -10px !important;
+}
+.boxers{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxe{
+  width: 300px !important;
+
+}
+.cat_box{
+  flex-direction: column;
+  width: 100%;
+}
+.iconing{
+  width: 280px !important;
+  align-items: center;
+  margin-left: 0px !important;
+  margin-top: -px !important;
+}
+
+.iconing12{
+  width: 280px !important;
+  margin-left: 32px;
+  margin-bottom: 10px !important;
+}
+.idontknow{
+ 
+}
+
+
+  button {
+      width: 500px;
+      height: 45px;
+  }
+}
+
+@media (max-width: 576px) {
+  .exo {
+      font-size: 40px;
+  }
+
+  .image {
+      margin-top: -150px !important;
+  }
+
+  button {
+      width: 180px;
+      height: 35px;
+  }
+
+  .fonthead {
+      font-size: 20px;
+      margin-left: 20px;
+  }
+
+  .fontpara {
+      font-size: 10px !important;
+      margin-left: -20px !important;
+  }
+  .cat_box{
+    margin-bottom: 322px  !important;
+  }
+  .testimoni{
+    margin-top: -140px !important; 
+  }
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
